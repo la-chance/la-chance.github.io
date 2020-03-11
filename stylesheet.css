@@ -1,0 +1,78 @@
+.title {
+  color: #02ccba;
+}
+
+.content-box{
+  width:100%;
+  height:1200px;
+}
+
+.nav{
+  background-color:#727976;
+  width:100%;
+  height:100px;
+  opacity:0.8;
+  position: fixed;
+  top:0;
+  z-index: 10;
+
+}
+
+.nav li {
+  list-style: none;
+  float:right;
+  line-height: 100px;
+}
+
+.nav a {
+  color:white;
+  margin-right: 50px;
+}
+
+.main-section {
+  height:800px;
+  text-align:center;
+}
+
+.main-section p {
+  background-image:url(https://images.unsplash.com/photo-1464547304833-02f72e3835ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size:cover;
+  color:white;
+  font-size: 100px;
+  line-height:800px;
+  margin:0px;
+}
+
+.quote-section{
+  height:150px;
+  margin-top:50px;
+}
+
+.quote-section h1 {
+  line-height:150px;
+  font-weight:normal;
+}
+
+footer {
+  background-color:#727976;
+  width:100%;
+  height:150px;
+  opacity:0.8;
+}
+
+.footer-box {
+  padding:16px 0px;
+  margin:0px 50px;
+  height: 150px;
+}
+
+.footer-text {
+  list-style: none;
+  display:block;
+  float:right;
+}
+
+footer a {
+  color:white;
+
+}
